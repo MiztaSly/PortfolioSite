@@ -4,37 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styless.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>SYLVESTER AKWAOWO</h1>
-        <p> 
-            <i>Friendly and dedicated Film Editor, able to learn new tasks quickly. <br> Looking for an opportunity to
-                explore new career path.</i>
-        </p>
 
-        <div>
-            <a href="#">Skills</a>
-            <a href="#">Experience</a>
-            <a href="#">Projects</a>
-            <a href="#">My Price</a>
-            <a href="#">Contacts</a>
-        </div>
-    </header>
+   <header>
+      <div class="container">
+          <div id="branding">
+          <h1><span class="highlight">My Portfolio</h1>
+          </div>
+  
+      <ul>
+          <li class="current"><a href="#">HOME</a></li>
+          <li><a href="#">SKILLS</a></li>
+          <li><a href="#">EXPERIENCE</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="#">MY PRICE</a></li>
+          <li><a href="#">CONTACTS</a></li>
+      </ul>
+          </div>
+   </header>
 
-    <hr>
+   <!--Pix showcase-->
+   <section id="showcase">
+      <div class="container">
+              <h1>SYLVESTER AKWAOWO</h1>
+              <p>
+                  <i>Friendly and dedicated Film Editor, able to learn new tasks quickly. <br> Looking for an opportunity to
+                    explore new career path.</i>
+              </p>
+      </div>
+  </section>
 
-    <div>
-        <img src="https://res.cloudinary.com/codepickin/image/upload/v1566564098/My%20web%20Project/codepickin_zmr8qv.jpg" alt="" width="400" height="300">
+  <!--this is for the signup form-->
+<section id="newsletter">
+    <div class="container">
+        <h1>Subscribe to My Newsletter</h1>
+        <form>
+            <input type="email" placeholder="Enter Email...">
+            <button type="submit" class="button_1">Subscribe</button>
+
+        </form>
     </div>
+</section>
 
-    <hr>
-
-    <div>
-        <h3>SKILLS</h3>
-        <ol>
+<!--this section for item list-->
+<section id="boxes">
+    <div class="container">
+ 
+        <div class="box">
+             <h3>SKILLS</h3>
+          
+        <ul>
             <li>Communication and Media</li>
             <li>Administration and Management</li>
             <li>Time Management</li>
@@ -42,133 +65,141 @@
             <li>Java</li>
             <li>Team Work</li>
             <li>Active Learning</li>
-        </ol>
-    </div>
+        </ul>
 
-    <hr>
-    <h3>WORK EXPEREINCE</h3>
-    <p> <b>Film Editor</b> <i>- Dec. 2016 - Current</i> </p>
-    <p>EVM Studios - Accra</p>
-
-    <ul>
-        <li>
-          Organize and string together raw footage into a continuous whole
-          <br />
-          according to scripts or the instructions of directors.
-        </li>
-        <li>
-          Determine the specific audio and visual effects <br />
-          and music necessary to complete films.
-        </li>
-        <li>Design computerized graphic effects.</li>
-      </ul>
-  
-      <p>
-        <b>Film Director/Editor - <i>Apr 2012 - Oct 2016</i> </b>
-      </p>
-      <p>Ultrasoft Films - Oron, Akwa Ibom State, Nigeria</p>
-  
-      <ul>
-        <li>
-          Determine production size, content, and budget, <br />
-          establishing details such as production schedules <br />
-          and management policies
-        </li>
-        <li>
-          Produce shows for special occasions, such as holidays or testimonials
-        </li>
-        <li>
-          Monitor postproduction processes to ensure accurate completion of
-          details
-        </li>
-        <li>
-          Operate television or motion picture cameras to record scenes for
-          <br />
-          television broadcasts, advertising, or motion pictures
-        </li>
-        <li>
-          Compose and frame each shot, applying the technical aspects of light,
-          <br />
-          lenses, film, filters, and camera settings to achieve the effects
-        </li>
-        <li>
-          Confer with cameramen, sound and lighting technicians, electricians,
-          <br />
-          and other crew members to discuss assignments and determine <br />
-          filming sequences, desired effects, camera movements, and lighting
-          requirements
-        </li>
-        <li>
-          Select and combine the most effective shots of each scene to form
-          <br />
-          a logical and smoothly running story
-        </li>
-      </ul>
-
-      <hr>
-
-      <h3>EDUCATION</h3>
-      <p><b>West African Senior School Certificate Examination (WASSCE)</b> <i>Jun 2004</i>	<br>		
-        Edemsco Secondary School - Ikot Ekpene, Akwa Ibom State, Nigeria</p>
-
-        <hr>
-
-        <div>
-            <h3>PROJECTS DONE</h3>
-            <video src="https://res.cloudinary.com/codepickin/video/upload/v1566605529/My%20web%20Project/short_clip_d8atur.mp4" width="320" height="240" controls></video>
+                 
         </div>
-
-        <hr>
-
-        <h3>My Price</h3>
-        <table>
-            <tr>
-                <th>BASIC</th>
-                <th>PRICE</th>
-                <th>PRO</th>
-                <th>PRICE</th>
-            </tr>
-
-            <tr>
-                <td>Android</td>
-                <td>$500</td>
-                <td>Android</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>Musicals</td>
-                <td>$400</td>
-                <td>Musicals</td>
-                <td>$1000</td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <footer>
-            <h3>CONTACT ME</h3>
-            <form>
-              Name:<br>
-              <input type="text" name="Name"><br>
-              Email:<br>
-              <input type="email" name="email"> <br>
-              Subject:<br>
-              <input type="text" name="Subject"> <br>
-              Message:<br>
-              <input type="text" name="Message"> <br>
-              <input type="button" onclick="alert('Sent')" value="Send Message">
-            </form>
-
-
-            <a href="https://github.com/MiztaSly" target="_blank"><img src="https://res.cloudinary.com/codepickin/image/upload/v1566602298/My%20web%20Project/github_qqyech.png" alt="Sylvester's github link" /></a>           
-            <a href="https://twitter.com/ultraS0fti" target="_bank"><img src="https://res.cloudinary.com/codepickin/image/upload/v1566602298/My%20web%20Project/twitter_eqyxyd.png" alt="Sylvester's twitter link" /></a>
-            <a href="https://www.youtube.com/channel/UCLuGHPsuQl6IQV6SrT4AACw" target="_blank"><img src="https://res.cloudinary.com/codepickin/image/upload/v1566602298/My%20web%20Project/youtube_nl6kqh.png"
-                alt="My facebook link" /></a>
  
+        <div class="box">
+             
+             <h3>WORK EXPEREINCE</h3>
+             <p> <b>Film Editor</b> <i>- Dec. 2016 - Current</i> </p>
+             <p>EVM Studios - Accra</p>
+         
+             <ul>
+                 <li>
+                   Organize and string together raw footage into a continuous whole
+                   <br />
+                   according to scripts or the instructions of directors.
+                 </li>
+                 <li>
+                   Determine the specific audio and visual effects <br />
+                   and music necessary to complete films.
+                 </li>
+                 <li>Design computerized graphic effects.</li>
+               </ul>
+           
+               <p>
+                 <b>Film Director/Editor - <i>Apr 2012 - Oct 2016</i> </b>
+               </p>
+               <p>Ultrasoft Films - Oron, Akwa Ibom State, Nigeria</p>
+           
+               <ul>
+                 <li>
+                   Determine production size, content, and budget, <br />
+                   establishing details such as production schedules <br />
+                   and management policies
+                 </li>
+                 <li>
+                   Produce shows for special occasions, such as holidays or testimonials
+                 </li>
+                 <li>
+                   Monitor postproduction processes to ensure accurate completion of
+                   details
+                 </li>
+                 <li>
+                   Operate television or motion picture cameras to record scenes for
+                   <br />
+                   television broadcasts, advertising, or motion pictures
+                 </li>
+                 <li>
+                   Compose and frame each shot, applying the technical aspects of light,
+                   <br />
+                   lenses, film, filters, and camera settings to achieve the effects
+                 </li>
+                 <li>
+                   Confer with cameramen, sound and lighting technicians, electricians,
+                   <br />
+                   and other crew members to discuss assignments and determine <br />
+                   filming sequences, desired effects, camera movements, and lighting
+                   requirements
+                 </li>
+                 <li>
+                   Select and combine the most effective shots of each scene to form
+                   <br />
+                   a logical and smoothly running story
+                 </li>
+               </ul>
+         </div>
+ 
+         <div class="box">
+                 
+                 <h3>EDUCATION</h3>
+                 <p><b>West African Senior School Certificate Examination (WASSCE)</b> <i>Jun 2004</i>	<br>		
+                  Edemsco Secondary School - Ikot Ekpene, Akwa Ibom State, Nigeria</p>
+          
+             </div>
+ 
+         <div class="box">
+                     
+                     <h3>PROJECTS DONE</h3>
+                     <video src="https://res.cloudinary.com/codepickin/video/upload/v1566605529/My%20web%20Project/short_clip_d8atur.mp4" width="320" height="240" controls></video>
+                 </div>
+ 
+                
+ 
+    </div> 
+ </section>
 
+ 
+ <div class="table">
+    <table style="width:80%">
+        <thead>
+            <tr>
+                    <th>BASIC</th>
+                    <th>PRICE</th>
+                    <th>PRO</th>
+                    <th>PRICE</th>
+            </tr>
+        </thead>
+    
+        
+    <tbody>
+    <tr>
+        <td>Android</td>
+        <td>500</td>
+        <td>Android</td>
+        <td>1000</td>
+    </tr>
+    <tr>
+            <td>Movies</td>
+            <td>1000</td>
+            <td>Movies</td>
+            <td>5000</td>
+    </tr>
+    <tr>
+            <td>Musicals</td>
+            <td>500</td>
+            <td>Musicals</td>
+            <td>2000</td>
+    
+    </tr>
+      
+    </tbody>
+    </table>
+    </div>
+    
+    
+    
+    <footer>
+        <a href="https://github.com/MiztaSly" target="_blank"><img src="https://res.cloudinary.com/codepickin/image/upload/v1566602298/My%20web%20Project/github_qqyech.png" alt="Sylvester's github link" /></a>           
+        <a href="https://twitter.com/ultraS0fti" target="_bank"><img src="https://res.cloudinary.com/codepickin/image/upload/v1566602298/My%20web%20Project/twitter_eqyxyd.png" alt="Sylvester's twitter link" /></a>
+        <a href="https://www.youtube.com/channel/UCLuGHPsuQl6IQV6SrT4AACw" target="_blank"><img src="https://res.cloudinary.com/codepickin/image/upload/v1566602298/My%20web%20Project/youtube_nl6kqh.png"
+            alt="My facebook link" /></a>
+        <p>CodePickin &copy; 2019</p>
+    </footer>
+              
 
-        </footer>
-  
 
 </body>
 
